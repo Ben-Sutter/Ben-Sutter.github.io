@@ -50,8 +50,38 @@
 <p>0 1 1 1</p>
 <p>0 0 1 1</p>
 
+<p>---------------------------------------------------</p>
 
 <p>Graph of surface and given a set of points: Approx area of surface = Area of Square * (Num points inside / Total num points)</p>
+
+<p>---------------------------------------------------</p>
+
+<p> For Monte Carlo convergence questions, if given n and estimated error: </p>
+<p> First find Z by using the given error and n and solve: error = Z / sqrt(n)</p>
+<p> Then use that newly found Z with the same equation and the new n to find the new approx error.</p>
+<p></p>
+<p>Sometimes they might switch this around and make you find n given a different goal error</p>
+<p> For this you must make sure to remember to square the calculated number to get n.</p>
+<p>---------------------------------------------------</p>
+<p>When given vectors/ matrices and told to calculate a norm/norm bound for another vector/matrix,</p>
+<p>Add/subtract the vector(s)/matrix(matrices) together to get the one you are asked to calculate</p>
+<p>Count the number of additions/subtractions and multiply the norm by that amount of operations done</p>
+<p>---------------------------------------------------</p>
+<p>He finds the LU factorization of a 1350x1350 matrix M in 243 seconds. He then takes another 81 seconds</p>
+<p>to apply both triangular substitutions (backward and forward) to solve the system of linear equations</p>
+<p>Mx = c for a given vector c</p>
+<p></p>
+<p>As Assistant to the Regional Manager, Dwight wants to test your knowledge and asks you to estimate the</p>
+<p>time t that takes to factorize and efficiently solve the system Ax = b, where A is a square matrix with</p>
+<p>dimension 450, given 40 different right-hand side b vectors. Dwight says you should not solve the</p>
+<p>problem, but instead obtain your estimate using the information from Michael's demonstration. Provide</p>
+<p>your time estimate t in the answer box below.</p>
+<p></p>
+<p>(1350/450)^3 = 243/x -> x = 9  <----- factor time</p>
+<p>(1350/450)^2 = 81/x -> x = 9 <----- triangle time</p>
+<p>factor time + (#of b vectors * triangle time) = total time</p>
+<p></p>
+<p></p>
 
 
 
